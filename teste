@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<script src="contador.js"></script>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<p>Teste 1</p>
+		<audio controls="controls">
+			<source src="ProleteR_-_Romance__Int._.mp3" type="audio/mp3" />
+		</audio>
+		<br>
+		<button onClick="acertou()">certo</button><br>
+		<button onClick="errou()">errado</button><br>
+		<button onClick="errou()">errado</button><br>
+		<button onClick="errou()">errado</button><br>
+		<button onClick="errou()">errado</button><br>
+		<button onClick="imprimir()">imprimir</button>
+		
+		<a href="teste1.html">next</a>
+		
+	</body>
+</html>
