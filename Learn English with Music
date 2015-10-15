@@ -1,0 +1,80 @@
+<p><!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<script src="jquery.js"></script>
+		
+		<script>
+			function abrirTeste() {
+    			document.getElementById("iframe_game").src = "teste.html";
+			}
+			function abrirTeste1() {
+    			document.getElementById("iframe_game").src = "teste1.html";
+			}
+			function abrirTeste2() {
+    			document.getElementById("iframe_game").src = "teste2.html";
+			}
+		</script>
+
+		<style>
+			#wrap{
+				margin: 0 auto;
+				min-width: 900px;
+				max-width: 1200px;
+			}
+			#header {
+				background-color:black;
+				color:white;
+				text-align:center;
+				padding:5px;
+			}
+			#menu {
+				line-height:30px;
+				background-color:#eeeeee;
+				float:center;
+				padding:5px;	      
+			}
+			#view {
+				float:center;
+				padding:10px;	 	
+				min-width: 500px;
+				max-width: 1200px;
+				
+			}
+			#footer {
+				background-color:black;
+				color:white;
+				clear:both;
+				text-align:center;
+			   padding:5px;	 	 
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id="wrap">
+			<!--INICIO Wrap-->
+			<div id="header">
+				<h1>Learn english with Music</h1>
+			</div>
+
+			<div id="menu">
+				<p>
+				  <button onClick="abrirTeste()">Teste</button>
+				  <button onClick="abrirTeste1()">Teste1</button>
+				  <button onClick="abrirTeste2()">Teste2</button>
+				  
+				</p>
+			</div>
+
+			<div id="view">
+				<IFRAME id="iframe_game" src="" scrolling="no" frameborder="0" width="800px" height="500px" align="center"></IFRAME>
+			</div>
+
+			<div id="footer">
+				Copyright © FatecADS3A
+			</div>
+		</div>
+        <!--Fim Wrap-->
+	</body>
+</html></p>
